@@ -1,0 +1,19 @@
+{
+    "name": "nodewind",
+    "version": "1.0.0",
+    "description": "Full-stack Node.js app with TailwindCSS for my personal portfolio ",
+    "type": "module",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js"
+    },
+    "dependencies": {
+        "ejs": "^3.1.8",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15",
+        "tailwindcss": "^3.4.14"
+    }
+}
